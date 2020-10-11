@@ -5,13 +5,8 @@ import matplotlib.pyplot as plt
 fig = plt.figure()
 ax = fig.add_subplot(111, projection = '3d')
 x = [1,2,3,4,5,6,7,8,9]
+  this is used for 2nd branching
 
-p = np.array(x)
-q = np.array(p*p)
-r = np.array(p*p+q*q)
-
-plt.plot(p,q,r)
-plt.show()
 
 
 
